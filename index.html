@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Order Inquiries</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand brand" href="#">The Graphē</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Product</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Order
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">buy</a>
+          <a class="dropdown-item" href="#order">order inquery</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      <!-- oder inquery-->
+      <section id="order">
+        <div class="container-fluid department">
+          <h2>PPE Order Inquiries</h2>
+          <p>we are experiencing high demand for select personal protective equipment(PPE) at this time due to the coronavirus pademic.</p>
+          <p>*Please note that the Graphē only fills orders for safety products through our distributor network.</p>
+<!-- form -->
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="inputnmae">Name</label>
+      <input type="text" class="form-control" id="inputname" placeholder="Name">
+    </div>
+  </div>
+<div class="form-row">
+<div class="form-group col-md-3">
+<label for="inputEmail4">Email</label>
+<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+</div>
+<div class="form-group col-md-3">
+<label for="inputcompanyname">Company name</label>
+<input type="text" class="form-control" id="companyname" placeholder="Company Name">
+</div>
+</div>
+<div class="form-row">
+  <div class="form-group col-md-6">
+  <label for="inputAddress">Address</label>
+  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+</div>
+<div class="form-row">
+  <div class="form-group col-md-6">
+  <label for="inputAddress2">Address 2</label>
+  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+</div>
+<div class="form-row">
+<div class="form-group col-md-3">
+<label for="inputCity">City</label>
+<input type="text" class="form-control" id="inputCity">
+</div>
+<div class="form-group col-md-3">
+<label for="inputState">State</label>
+<select id="inputState" class="form-control">
+<option selected>Choose...</option>
+<option>...</option>
+</select>
+</div>
+<div class="form-group col-md-2">
+<label for="inputZip">Zip</label>
+<input type="text" class="form-control" id="inputZip">
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" id="gridCheck">
+<label class="form-check-label" for="gridCheck">
+Check me out
+</label>
+</div>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        </div>
+
+      <div class="footer bg-warning">
+          <p class="last">copyright©2022-The Graphē</p>
+      </div>
+
+  </body>
+</html>

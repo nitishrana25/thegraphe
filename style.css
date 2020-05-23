@@ -1,0 +1,27 @@
+#order{
+  text-align: left;
+  background-color: #e5e5e5;
+}
+h2{
+font-family: sans-serif;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+p{
+  width: 40%;
+}
+.department{
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.last{
+margin: 0 auto 0 600px;
+}
+.footer{
+  padding: 10px 40px;
+  padding-bottom: 20px;
+}
+.brand{
+  padding-left: 20px;
+}
